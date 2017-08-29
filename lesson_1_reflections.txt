@@ -2,7 +2,8 @@ How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     diff -u game_old.js game_new.js  /OR/  git diff 
-
+    display lines inserted or removed between to commits.
+ 	
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
@@ -14,18 +15,19 @@ What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    Decrease unnecessary saves - Avoid overwhelming files count
+    Decrease unnecessary saves - Avoid overwhelming files count.
 
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Depends on purpose of use
+    Depends on purpose of use.
 
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    -git log is used to view the whole commit history of a branch.
+    -git diff is used to compare two commits /OR/ compare working directory to staging area.
 
 
 How might using version control make you more confident to make changes that
@@ -36,4 +38,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer 
+    large projects that requires teamwork. 
