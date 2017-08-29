@@ -3,19 +3,17 @@ local?
 
  
 
-	Fill in your answer here
+	If working team are NOT all located at the same place.
 
 
 
 
-Why might you want to always pull changes manually rather than having Git
+Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 
     
 
-	Fill in your answer here
-
-
+	To make sure that shared commits are totally functional and not just uncompleted attempts.
 
 
 Describe the differences between forks, clones, and branches.  When would you
