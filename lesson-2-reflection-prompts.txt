@@ -1,16 +1,18 @@
 What happens when you initialize a repository? 
-	create invisible .git folder.
+	create invisible .git folder
 
 
 Why do you need to do it?
 
 
-	To make/re-initialize certain folder/directory as a git repository.
+	To make /OR/ re-initialize certain folder/directory as a git repository.
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-	It specify files that will be saved during a commit. 
+	
+	satging area >> It specify files that will be saved during a commit. 
+	working directory >> It contains the latest current changes before commit.
 
 
 
@@ -35,13 +37,18 @@ How do the diagrams help you visualize the branch structure?
 
 
 What is the result of merging two branches together?
+	That the commit history in two branches will be fully accessible through merged node.
 
 
 Why do we represent it in
-the diagram the way we do?
+ the diagram the way we do?
 
 
 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+	When there is no conflict in merging >> Automatic merging is a good choice.
+	During a conflict >> It is better to do it manually to be fully sure which changes you wanna keep.
